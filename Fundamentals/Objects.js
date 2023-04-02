@@ -33,10 +33,4 @@
 // console.log(f);
 // f();
 
-// Anonymous function as function expression
-let x =50;
-const f = function () {
-  console.log("Inside fun");
-};
-console.log(x);
-f();
+
