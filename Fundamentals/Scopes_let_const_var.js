@@ -74,14 +74,14 @@
 
 // ------------------------functional expression----------------------------------
 // a();
-// var a = function b() {
-//   console.log('inside b')
-// }
+var a = function b() {
+  console.log('inside b')
+}
 
 // error (a is not a function)
 
 // -------------------------------functional expression------------------------------
-a();
-let a = function b() {
-  console.log('inside b')
-}
+// a();                                // can not access a before intialization
+// let a = function b() {
+//   console.log('inside b')
+// }
