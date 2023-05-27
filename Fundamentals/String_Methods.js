@@ -32,4 +32,4 @@ console.log(str.repeat(3));
 //  to print warning
 console.warn("this is warning");
 // to print error
-console.error("this is my bgrand new error")
+console.error("this is my brand new error");

@@ -85,3 +85,6 @@ var a = function b() {
 // let a = function b() {
 //   console.log('inside b')
 // }
+// ---------------------------------------------------------
+
+// whenever we create a new variable using var in function it creates a different variable but this is not the case with let

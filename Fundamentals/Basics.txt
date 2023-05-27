@@ -10,7 +10,7 @@ it is basically just a program. it accepts javascipt file and executes it.
 
 console is basically just a repl
 r--- read
-r--- evalaute
+e--- evalaute
 p--- print 
 l--- loop
 
@@ -30,6 +30,6 @@ str[0] will give R
 str[99] --->NaN
 
 ------>METHODS
-1 Destructive methods (this methods will do not change original string)
+1 Destructive methods (this methods will not change original string)
 ex: str.toUpperCase() --> this will not create change in original string
 2 Non Destructive methods

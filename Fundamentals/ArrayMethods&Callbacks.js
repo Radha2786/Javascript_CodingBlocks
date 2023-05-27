@@ -40,3 +40,11 @@ arr.sort(function (a,b){
 console.log(arr);
 
 
+
+const names =['Radha','Dolly','Harshita','Tanishq']
+let names2= names.map(function(name){ 
+    console.log(name+' Hi');
+})
+names2;
+
+
