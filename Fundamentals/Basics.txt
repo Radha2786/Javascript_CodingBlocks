@@ -1,0 +1,35 @@
+JAVA SCRIPT ENGINE
+it is basically just a program. it accepts javascipt file and executes it.
+
+// Datatypes
+---->Primitve = which can not be  broken into simpler datatypes.
+    ex: Number(Nan,infinity,decimal,positive ), boolean ,null,string,undefined
+
+    0/0 = NaN
+---->Non primitive = derived from primitive 
+
+console is basically just a repl
+r--- read
+e--- evalaute
+p--- print 
+l--- loop
+
+------->PEMDAS RULE
+P(paranthesis) E(exponent) M(mutiplication) D(division) A(addition) S(subtraction)
+
+** ParseInt method  & ParseFloat
+= to convert string to integer
+parseInt("1234")
+o/p--1234
+parseInt("radhashar12ma")
+o/p--NaN
+
+--------> STRING 
+let str="Radha"
+str[0] will give R
+str[99] --->NaN
+
+------>METHODS
+1 Destructive methods (this methods will not change original string)
+ex: str.toUpperCase() --> this will not create change in original string
+2 Non Destructive methods
