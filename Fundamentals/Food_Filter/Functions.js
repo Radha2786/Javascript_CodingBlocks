@@ -75,16 +75,24 @@
 // })
 
 
-function fun() {
-  console.log('inside fun');
+// function fun() {
+//   console.log('inside fun');
 
-  function innerfun() {
-    console.log("inside innerfun");
-  }
-  return innerfun ;
+//   function innerfun() {
+//     console.log("inside innerfun");
+//   }
+//   return innerfun ;
+// }
+// const f =fun();
+// // console.log(f);
+// f();
+
+
+const a = 10;
+const b = 20;
+
+if(a<100){
+    const b=30;
+    console.log(b);
 }
-const f =fun();
-// console.log(f);
-f();
-
-
+console.log(b);

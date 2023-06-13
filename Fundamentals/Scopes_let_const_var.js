@@ -74,9 +74,9 @@
 
 // ------------------------functional expression----------------------------------
 // a();
-var a = function b() {
-  console.log('inside b')
-}
+// var a = function b() {
+//   console.log('inside b')
+// }
 
 // error (a is not a function)
 
@@ -88,3 +88,14 @@ var a = function b() {
 // ---------------------------------------------------------
 
 // whenever we create a new variable using var in function it creates a different variable but this is not the case with let
+
+// ----------------------------------------------------------
+
+// const a = 10;
+// const b = 20;
+
+// if(a<100){
+    // const b=30;
+    // console.log(b);
+// }
+// console.log(b);
