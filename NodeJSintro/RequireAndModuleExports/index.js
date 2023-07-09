@@ -1,9 +1,9 @@
 const math = require ('./math.js');
 
 // ---------------------------------------------------------------------------
-const {pi,square,add} = require('./math.js'); // array destructuring
-console.log(square(2));
-console.log(pi);
+// const {pi,square,add} = require('./math.js'); // array destructuring
+// console.log(square(2));
+// console.log(pi);
 // ------------------------------------------------------------------------------
 
 

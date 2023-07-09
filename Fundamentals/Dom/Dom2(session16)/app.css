@@ -1,0 +1,23 @@
+
+.heading{
+    border: 3px solid red ;
+    color : blue;
+    padding : 2px;
+}
+
+.Newheading{
+background-color: cadetblue;
+font-weight: 100;
+text-transform: uppercase;
+}
+
+.class1{
+    border: 1px solid purple;
+    text-decoration-color: aqua;
+    background-color: bisque;
+}
+.hide{
+    display: none;
+}
+
+

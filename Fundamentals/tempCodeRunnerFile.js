@@ -1,8 +1,13 @@
-var a =99;
-function b() {
-  var a =100;
-  console.log(a);
-}
+let obj ={
+//     subject: 'DSA',
+//     name:'Radha',
+//     marks: 25
+// }
 
-b();
-console.log(a);
+// for(let i in obj){
+//     console.log(i);
+// }
+
+// for(let i in obj){
+//     console.log(`${i} ----> ${obj[i]}`);
+// }

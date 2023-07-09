@@ -9,5 +9,7 @@ module.exports = {
     square,
     add
 }
+
+// module.exports = "hello from math file"
 // by default this object is empty
 // we can also overwrite this export object 

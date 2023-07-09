@@ -50,16 +50,15 @@
 // ----------------------------------OTHER ARRAY METHODS--------------------------
 //1. SLICE (Non destructive)=====================
 
-// const colors=['blue','green','white','yellow','red','purple'];
+const colors=['blue','green','white','yellow','red','purple'];
 // console.log(colors.slice(1,4));
 
  
 // 2. SPLICE (Desctructive : changes the original array)===============
 
-// console.log(colors.splice(1,2,'Radha','Neha','Yash','Tushar'));    
+// console.log(colors.splilce(1,2,'Radha','Neha','Yash','Tushar'));    
   // it accepts index , no. of arguments to be deleted from that index and arguments that r gonna be inserted
 // console.log(colors);
-
 
 // ---------------------------FUNCTION CHAINING EXAMPLE--------------
 const url ='https://youtube.com/coding-block/myvideo.mp4';
@@ -82,7 +81,7 @@ const arr2 = ['Radhaa','Tanishq','Shubh']
 
 // 4. CONCAT METHOD (to concat 2 or more arrays)
 const ans =arr.concat(arr2);
-console.log(ans)
+// console.log(ans)
 
 // 5 INCLUDES===========
 //  6 INDEX OF===========
