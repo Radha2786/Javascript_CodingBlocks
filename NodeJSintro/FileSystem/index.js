@@ -4,30 +4,31 @@ var path = require('path');
 
 // const data = "hello from file system folder";
 
-const data = "hello from newly created xyz file";
+// const data = "hello from newly created xyz file";
 
-// const F2 = path.join(__dirname, 'files','wxyz.txt');
+const F2 = path.join(__dirname, 'files','wxyz.txt');
 
-const f1 = path.join(__dirname,'files','xyz.txt');
+// const f1 = path.join(__dirname,'files','xyz.txt');
+// console.log(f1);
 
 
-fs.writeFile(
-  f1,
-  data,
-  {
-    encoding: "utf-8",
-    flag: "w",
-  },
-  (err) => {
-    if (err) throw err;
-    console.log("file has been created successfully");
-  }
-);
+// fs.writeFile(
+//   f1,
+//   data,
+//   {
+//     encoding: "utf-8",
+//     flag: "w",
+//   },
+//   (err) => {
+//     if (err) throw err;
+//     console.log("file has been created successfully");
+//   }
+// );
 
-// fs.readFile(F2,(err,data)=>{
-//   if(err) throw err;
-//   console.log(data.toString());
-// })
+fs.readFile(F2,(err,data)=>{
+  if(err) throw err;
+  console.log(data.toString());
+})
 
 // -----------------------------------------------------------------------------------------------------------------------
 
